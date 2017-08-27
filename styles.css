@@ -1,0 +1,25 @@
+@charset "UTF-8";
+html{
+	background-color:#FCFFF5;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+header {
+	background-color:#193441;
+	padding: 20px;
+}
+#letterLogo{
+	text-transform:lowercase;
+	font-size: 1.5em;
+	float:left;
+	padding-top:5px;
+	border-right:solid thin #FCFFF5;
+	
+}
+nav a{
+	color:#FCFFF5;
+	padding:15px 15px;
+	float: right;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size: .7em;
+}
