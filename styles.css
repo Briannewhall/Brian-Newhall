@@ -25,11 +25,10 @@ nav a{
 	background-color:#193441;
 }
 
-aside{
-	float:left;
-	padding: 10% 10% 100% 10%;
-	background-color: #3E606F;
-}
-li{
-	margin-left: 318px;
+
+#specialProjects{
+	width: 43%;
+	float: left;
+	margin-left: 23%;	
+		
 }
