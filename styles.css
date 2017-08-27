@@ -5,21 +5,22 @@ html{
 }
 header {
 	background-color:#193441;
-	padding: 20px;
+	padding: 30px;
 }
 #letterLogo{
-	text-transform:lowercase;
-	font-size: 1.5em;
-	float:left;
-	padding-top:5px;
-	border-right:solid thin #FCFFF5;
-	
+	text-transform: lowercase;
+	font-size: 3em;
+	float: none;
+	border-right: thin groove #FCFFF5;
+	border-bottom: medium double #FCFFF5;
 }
 nav a{
 	color:#FCFFF5;
-	padding:15px 15px;
+	padding:0px 15px;
 	float: right;
 	text-decoration:none;
 	text-transform:uppercase;
 	font-size: .7em;
+	background-color:#193441;
+
 }
