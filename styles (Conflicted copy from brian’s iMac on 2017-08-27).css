@@ -26,10 +26,8 @@ nav a{
 }
 
 aside{
-	float:left;
+	float:right;
 	padding: 10% 10% 100% 10%;
 	background-color: #3E606F;
 }
-li{
-	margin-left: 318px;
-}
+
