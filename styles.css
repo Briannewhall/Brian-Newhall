@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato|Pontano+Sans');
 html{
 	background-color:#FCFFF5;
 	font-family:'Pontano Sans',  Helvetica, Arial, "sans-serif?";
@@ -26,10 +26,42 @@ nav a{
 	background-color:#193441;
 }
 
+h1{
+	color:#FF530D;
+}
+h2{
+	text-align:right;
+	Margin-right: 20px;
+}
 
-#specialProjects{
-	width: 43%;
-	float: left;
-	margin-left: 23%;	
-		
+#skills{
+	background-color:#91AA9D;
+	color:#FCFFF5;
+	height:10em;
+	margin-bottom:10px;
+	
+}
+
+.leftTxt{
+	width:30%;
+	text-transform:uppercase;
+	letter-spacing:3.2px;
+	padding-left:20px;
+	float:left;
+	margin-right:20px;
+	padding-top:5.7px;
+}
+
+.rightTxt{
+	width:50%;
+	float:left;
+}
+ul{
+	line-height:1.35em;
+}
+
+
+
+@media (max-width: 580px){
+	.leftTxt, h1, h2, h3{font-size:95%}
 }
