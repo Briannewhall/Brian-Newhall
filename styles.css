@@ -5,7 +5,6 @@ html{
 	font-family:'Pontano Sans',  Helvetica, Arial, "sans-serif?";
 	color:#91AA9D;
 }
-
 img{
 	display:block;
 	margin:auto;
@@ -13,37 +12,83 @@ img{
 	height:auto;
 	padding:50px 0px;
 }
-
+a{
+	color:#3E606F;
+	padding-left:10px;
+	text-transform:lowercase;
+}
 header {
 	background-color:#193441;
-	padding: 30px;
+	padding: 2em;
 	margin:0px;
-}
-#letterLogo{
-	text-transform: lowercase;
-	font-size: 3em;
-	float: none;
-	border-right: thin groove #FCFFF5;
-	border-bottom: medium double #FCFFF5;
 }
 nav a{
 	color:#FCFFF5;
-	padding:0px 15px;
+	padding:0px 15px 10px 15px;
 	float: right;
 	text-decoration:none;
 	text-transform:uppercase;
 	font-size: .7em;
 	background-color:#193441;
 }
-footer h3{
+ul{
+	line-height:1.35em;
+}
+footer{
 	background-color:#193441;
-	padding: 10px;
+	padding: 10px 10px 30px 10px;
 	margin:0px;
 	color: #FCFFF5;
 	text-align:center;
-	letter-spacing:3.2px;
-	font-family:'Lato';
-	font-weight:100;
+	letter-spacing:5px;
+	font-size:1.5em;
+	text-transform:uppercase;
+}
+footer a{
+	padding: 10px;
+	color: #FF530D;
+	font-size:.9em;
+}
+
+#bLogo {
+	text-align: center;
+	font-size: 2em;
+	font-family: "lato";
+	font-weight: 100;
+	letter-spacing:10px;
+	text-transform: uppercase;
+	background-color: #193441;
+	color: #FF530D;
+}
+#intro{
+	text-align: center;
+	font-size: 5em;
+	letter-spacing:10px
+}
+#contactPage{
+	background-color: #193441;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 100px;
+	margin: 0px;
+	color: #FCFFF5;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+#contactPage a{
+	padding: 10px;
+	color: #FF530D;
+	font-size:.8em;
+}
+#about, #intro{
+	background-color:#D1DBBD;
+	padding:3em;
+}
+#workSample{
+	padding:4em;
 }
 
 .flexBoxGraphs{
@@ -74,27 +119,23 @@ footer h3{
 	justify-content: flex-end;
 	padding-right:5em;
 }
-
 .rightTxt{
 	width:50em;
+	padding-left: 40px;
+	margin-bottom: 40px;
+	border-left: solid;
+	border-left-color: #FF530D;
 }
-
 .rightTxt h2{
 	color:#FF530D; 
 	margin-bottom:2.7px;
 }
-
 .rightTxt h3{
 	font-size:1em;
 	font-family:'lato';
 	text-transform:uppercase;
 	margin-top:0px;
 }
-
-ul{
-	line-height:1.35em;
-}
-
 .projectExamples{
 	display:flex;
 	width:40%;
