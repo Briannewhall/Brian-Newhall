@@ -62,8 +62,7 @@ footer a{
 }
 #intro{
 	text-align: center;
-	font-size: 5em;
-	letter-spacing:10px
+
 }
 #contactPage{
 	background-color: #193441;
@@ -84,8 +83,9 @@ footer a{
 	font-size:.8em;
 }
 #about, #intro{
-	background-color:#D1DBBD;
+	background-color:#91AA9D;
 	padding:3em;
+	color:#FCFFF5
 }
 #workSample{
 	padding:4em;
