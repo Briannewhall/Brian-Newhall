@@ -1,16 +1,26 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Lato|Pontano+Sans');
 html{
-	background-color:#FCFFF5;
+	background-color: #FCFFF5;
 	font-family:'Pontano Sans',  Helvetica, Arial, "sans-serif?";
-	color:#91AA9D;
+	font-size: 100%;
+	color:#193441;
+	text-align: center;
+}
+
+#intro p{
+	max-width: 85%;
+	margin:auto;
+	line-height: 1.5em;
+}
+p{
+	line-height: 1.5em;
 }
 img{
 	display:block;
 	margin:auto;
 	max-width: 100%;
 	height:auto;
-	padding:50px 0px;
 }
 a{
 	color:#3E606F;
@@ -20,19 +30,66 @@ a{
 header {
 	background-color:#193441;
 	padding: 2em;
-	margin:0px;
+	border-bottom: solid #FCFFF5;
+	
 }
 nav a{
 	color:#FCFFF5;
 	padding:0px 15px 10px 15px;
-	float: right;
+	float: center;
 	text-decoration:none;
 	text-transform:uppercase;
 	font-size: .7em;
 	background-color:#193441;
+	
 }
 ul{
 	line-height:1.35em;
+	text-align: left;
+}
+#bLogo {
+	text-align: center;
+	font-size: 1.3em;
+	font-family: "lato";
+	font-weight: 100;
+	letter-spacing:10px;
+	text-transform: uppercase;
+	background-color: #193441;
+	color: #FF530D;
+	padding: 2.3em
+}
+#intro{
+	background-color: #D1DBBD;
+	padding: 6em;
+}
+#intro p{
+	font-family: 'Lato';
+}
+#sponsorFlexbox{
+	background-color:#D1DBBD;
+	margin: 0px;
+}
+#flowVellaFlexbox{
+	max-width:250px;
+	max-height:150px;
+}
+#gitHubLink{
+	width:250px;
+	height:150px;
+}
+#gitHubFlexbox{
+	background-color:#D1DBBD;
+	margin: 0px;
+}
+#about{
+	background-color:#193441;
+	color:#FF530D;
+	padding: 2em;
+	text-align: left;
+}
+#interests{
+	background-color: #D1DBBD;
+	padding:2em
 }
 footer{
 	background-color:#193441;
@@ -49,24 +106,9 @@ footer a{
 	color: #FF530D;
 	font-size:.9em;
 }
-
-#bLogo {
-	text-align: center;
-	font-size: 2em;
-	font-family: "lato";
-	font-weight: 100;
-	letter-spacing:10px;
-	text-transform: uppercase;
-	background-color: #193441;
-	color: #FF530D;
-}
-#intro{
-	text-align: center;
-
-}
 #contactPage{
 	background-color: #193441;
-	padding-top: 0px;
+	padding-top: 2em;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 100px;
@@ -82,15 +124,15 @@ footer a{
 	color: #FF530D;
 	font-size:.8em;
 }
-#about, #intro{
-	background-color:#91AA9D;
-	padding:3em;
-	color:#FCFFF5
-}
-#workSample{
+.flexText{
+	width: 45%;
 	padding:4em;
+	text-align: left;
 }
-
+.flexProject{
+	align-self: center;
+	padding: 4em;
+}
 .flexBoxGraphs{
 	display:flex;
 	justify-content:space-around;
@@ -106,10 +148,10 @@ footer a{
 }
 .flexBox{
 	display:flex;
-	justify-content: center;
+	justify-content:center;
 	flex-wrap: wrap;
-	margin: 0px 25px 0px 30px;
-	
+	padding-bottom: 2em;
+	padding-top:2em;
 }
 .leftTxt{
 	display:flex;
