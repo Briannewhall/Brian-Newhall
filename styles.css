@@ -78,6 +78,7 @@ button{
 #flowVellaButton button{
 	background: #FCFFF5;
 	border: 2px solid #D1DBBD;
+	width:200px;
 }
 #flowVellaButton button a{
 	color:#D1DBBD;
