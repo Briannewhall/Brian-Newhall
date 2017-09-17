@@ -64,6 +64,7 @@ button{
 	padding: 2.3em
 }
 #intro{
+	
 	background-color: #D1DBBD;
 	padding: 6em;
 }
@@ -81,7 +82,7 @@ button{
 	border: 2px solid #D1DBBD;
 }
 #flowVellaButton button a{
-	color:#D1DBBD;
+	color:#D1DBBD; 
 }
 #gitHubFlexbox{
 	background-color:#D1DBBD;
