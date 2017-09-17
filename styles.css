@@ -123,11 +123,12 @@ footer{
 	
 }
 .flexBoxGraphs{
-	display:flex;
-	justify-content:space-around;
 	background-color: #D1DBBD;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
-	padding:4em;
+	padding:2em;
 	margin:30px;
 	
 }
@@ -172,4 +173,16 @@ footer{
 .jobDescript{
 	text-align: left;
 }
-
+.coreComp{
+	display: block;
+	justify-content: space-between;
+	width: 20em;
+	padding-left: 40px;
+	margin: 0em 4em 0em 4em;
+	border-left: solid;
+	border-left-color: #FF530D;
+}
+.coreComp h2{
+	color:#FF530D; 
+	text-align: left;
+}
