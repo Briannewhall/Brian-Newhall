@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Lato|Pontano+Sans');
+/* tag element styles */
 html{
 	background-color:#FCFFF5;
 	font-family:'Pontano Sans',  Helvetica, Arial, "sans-serif?";
@@ -27,11 +28,14 @@ nav a{
 	background-color:#193441;
 	
 }
+h1{
+	color:#ff530d;
+}
 details{
 	padding-bottom: 1em;
 }
 summary{
-	color:#ff530d;
+	//color:#ff530d;
 	font-size: 1.3em;
 }
 ul{
@@ -51,7 +55,7 @@ button{
 	margin: 20px;
 	width: 200px;
 }
-}
+/* id styles */
 #flowVellaButton{
 	align-self: center;
 	padding: 4em;
@@ -63,14 +67,6 @@ button{
 }
 #flowVellaButton button a{
 	color:#D1DBBD; 
-}
-
-}
-#aboutTxt{
-	width:50em;
-	padding: 40px;
-	border-left: solid;
-	border-left-color: #FF530D;
 }
 #gitHubButton{
 	color:#FCFFF5;
@@ -85,6 +81,7 @@ footer{
 	letter-spacing:5px;
 	font-size:1.5em;
 }
+/* class styles */
 .sectionBlue{
 	background-color: #193441;
 	padding-bottom: 1em;
@@ -93,6 +90,7 @@ footer{
 .section{
 	display:inline-flex;
 	justify-content:center;
+	align-self: center;
 	flex-wrap: wrap;
 	padding: 2em 0em;
 }
@@ -104,6 +102,7 @@ footer{
 	width: 45%;
 	text-align: left;
 	margin-left: 2em;
+	align-self: center
 }
 .flexNarrow {
 	width: 30%;
@@ -122,4 +121,17 @@ footer{
 	text-transform: uppercase;
 	background-color: #193441;
 	padding-bottom: 2em;
+}
+.photo{
+	padding: 6em;
+	
+}
+.aboutTxt{
+	width: 45%;
+	text-align: left;
+	align-self: center;
+	padding: 40px;
+	margin-left: 1em;
+	border-left: solid;
+	border-left-color: #FF530D;
 }
