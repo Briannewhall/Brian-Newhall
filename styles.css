@@ -7,12 +7,6 @@ html{
 	color:#193441;
 	text-align: center;
 }
-
-#intro p{
-	max-width: 65%;
-	margin:auto;
-	line-height: 1.5em;
-}
 p{
 	line-height: 1.5em;
 }
@@ -33,9 +27,19 @@ nav a{
 	background-color:#193441;
 	
 }
+details{
+	padding-bottom: 1em;
+}
+summary{
+	color:#ff530d;
+	font-size: 1.3em;
+}
 ul{
 	line-height:1.35em;
 	text-align: left;
+}
+li{
+	padding-bottom: 1.1em;
 }
 button{
 	border: 2px solid #FCFFF5;
@@ -47,30 +51,6 @@ button{
 	margin: 20px;
 	width: 200px;
 }
-#imgFamily{
-	padding: 2em;
-	display: flex;
-	align-items: center;
-}
-#bLogo {
-	text-align: center;
-	font-size: 1.3em;
-	font-family: "lato";
-	font-weight: 100;
-	letter-spacing:10px;
-	text-transform: uppercase;
-	background-color: #193441;
-	color: #FF530D;
-	padding: 2.3em
-}
-#intro{
-	
-	background-color: #D1DBBD;
-	padding: 6em;
-}
-#sponsorFlexbox{
-	background-color:#D1DBBD;
-	margin: 0px;
 }
 #flowVellaButton{
 	align-self: center;
@@ -84,10 +64,7 @@ button{
 #flowVellaButton button a{
 	color:#D1DBBD; 
 }
-#gitHubFlexbox{
-	background-color:#D1DBBD;
-	margin: 0px;
-	align-content: center;
+
 }
 #aboutTxt{
 	width:50em;
@@ -99,10 +76,6 @@ button{
 	color:#FCFFF5;
 	background: #D1DBBD;
 }
-em{
-	color:#FF530D;
-	margin-right: 4px;
-}
 footer{
 	background-color:#193441;
 	padding: 100px 10px 100px 10px;
@@ -112,64 +85,41 @@ footer{
 	letter-spacing:5px;
 	font-size:1.5em;
 }
-.flexText{
-	width: 45%;
-	padding:4em;
-	text-align: left;
-}
-.flexProject{
-	align-self: center;
-	padding: 4em;
-	
-}
-.flexBoxGraphs{
-	display:flex;
-	justify-content:space-around;
-	background-color: #D1DBBD;
-	flex-wrap: wrap;
-	padding:4em;
-	margin:30px;
-	
-}
-.graftImg{
-	width:256px;
-	height:256px
-}
-.flexBox{
-	display:flex;
-	justify-content:center;
-	flex-wrap: wrap;
-	padding-bottom: 2em;
+.sectionBlue{
+	background-color: #193441;
+	padding-bottom: 1em;
 	padding-top:2em;
 }
-.leftTxt{
-	display:flex;
-	text-transform:uppercase;
-	letter-spacing:3.2px;
-	width:400px;
-	justify-content: flex-end;
-	padding-right:5em;
+.section{
+	display:inline-flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	padding: 2em 0em;
 }
-.rightTxt{
-	width:50em;
-	padding-left: 40px;
-	margin: 0px 20px 40px 10px;
-	border-left: solid;
-	border-left-color: #FF530D;
-}
-.rightTxt h2{
-	color:#FF530D; 
-	margin-bottom:2.7px;
-	text-align: left;
-}
-.rightTxt h3{
-	font-size:1em;
-	font-family:'lato';
-	text-transform:uppercase;
-	margin-top:0px;
-	text-align: left;
-}
-.jobDescript{
-	text-align: left;
+.darksection{
+	background-color: #D1DBBD;
 }
 
+.flexWide{
+	width: 45%;
+	text-align: left;
+	margin-left: 2em;
+}
+.flexNarrow {
+	width: 30%;
+	padding: 4em;
+	align-self: center;
+}
+.leftText{
+	max-width: 65%;
+}
+.orange{
+	color: #ff530d;
+	text-align: center;
+	font-family: "lato";
+	font-weight: 100;
+	letter-spacing:10px;
+	text-transform: uppercase;
+	background-color: #193441;
+	padding-bottom: 2em;
+}
