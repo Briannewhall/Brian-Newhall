@@ -19,6 +19,8 @@ a{
 header {
 	background-color:#193441;
 	padding: 2em;
+	border-bottom: solid thin;
+	border-bottom-color: #fcfff5;
 }
 nav a{
 	padding:0px 15px 10px 15px;
@@ -35,7 +37,6 @@ details{
 	padding-bottom: 1em;
 }
 summary{
-	//color:#ff530d;
 	font-size: 1.3em;
 }
 ul{
@@ -96,6 +97,7 @@ footer{
 }
 .darksection{
 	background-color: #D1DBBD;
+	width: 100%; 
 }
 
 .flexWide{
@@ -109,22 +111,33 @@ footer{
 	padding: 4em;
 	align-self: center;
 }
-.leftText{
+.flexResume{
+	width: 60%;
+	padding: 2em;
+	text-align: left;
+	margin-left: 2em;
+	border-left: solid;
+	border-left-color: #FF530D;
+}
+.flexResume a{
+	text-decoration: underline;
+	color: #193441
+}
+.intro{
 	max-width: 65%;
+	padding-right: 3em;
 }
 .orange{
 	color: #ff530d;
 	text-align: center;
-	font-family: "lato";
-	font-weight: 100;
 	letter-spacing:10px;
 	text-transform: uppercase;
 	background-color: #193441;
-	padding-bottom: 2em;
+	padding: .5em;
+	width: 100%;	
 }
 .photo{
-	padding: 6em;
-	
+	padding: 6em;	
 }
 .aboutTxt{
 	width: 45%;
@@ -134,4 +147,8 @@ footer{
 	margin-left: 1em;
 	border-left: solid;
 	border-left-color: #FF530D;
+}
+.skills{
+	display: inline-block;
+	width: 25%;
 }
