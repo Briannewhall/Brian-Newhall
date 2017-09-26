@@ -1,17 +1,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Lato|Pontano+Sans');
+/* tag element styles */
 html{
 	background-color:#FCFFF5;
 	font-family:'Pontano Sans',  Helvetica, Arial, "sans-serif?";
 	font-size: 100%;
 	color:#193441;
 	text-align: center;
-}
-
-#intro p{
-	max-width: 65%;
-	margin:auto;
-	line-height: 1.5em;
 }
 p{
 	line-height: 1.5em;
@@ -24,6 +19,8 @@ a{
 header {
 	background-color:#193441;
 	padding: 2em;
+	border-bottom: solid thin;
+	border-bottom-color: #fcfff5;
 }
 nav a{
 	padding:0px 15px 10px 15px;
@@ -33,9 +30,21 @@ nav a{
 	background-color:#193441;
 	
 }
+h1{
+	color:#ff530d;
+}
+details{
+	padding-bottom: 1em;
+}
+summary{
+	font-size: 1.3em;
+}
 ul{
 	line-height:1.35em;
 	text-align: left;
+}
+li{
+	padding-bottom: 1.1em;
 }
 button{
 	border: 2px solid #FCFFF5;
@@ -47,31 +56,7 @@ button{
 	margin: 20px;
 	width: 200px;
 }
-#imgFamily{
-	padding: 2em;
-	display: flex;
-	align-items: center;
-}
-#bLogo {
-	text-align: center;
-	font-size: 1.3em;
-	font-family: "lato";
-	font-weight: 100;
-	letter-spacing:10px;
-	text-transform: uppercase;
-	background-color: #193441;
-	color: #FF530D;
-	padding: 2.3em
-}
-#intro{
-	
-	background-color: #D1DBBD;
-	padding: 6em;
-}
-#sponsorFlexbox{
-	background-color:#D1DBBD;
-	margin: 0px;
-}
+/* id styles */
 #flowVellaButton{
 	align-self: center;
 	padding: 4em;
@@ -84,24 +69,9 @@ button{
 #flowVellaButton button a{
 	color:#D1DBBD; 
 }
-#gitHubFlexbox{
-	background-color:#D1DBBD;
-	margin: 0px;
-	align-content: center;
-}
-#aboutTxt{
-	width:50em;
-	padding: 40px;
-	border-left: solid;
-	border-left-color: #FF530D;
-}
 #gitHubButton{
 	color:#FCFFF5;
 	background: #D1DBBD;
-}
-em{
-	color:#FF530D;
-	margin-right: 4px;
 }
 footer{
 	background-color:#193441;
@@ -112,77 +82,73 @@ footer{
 	letter-spacing:5px;
 	font-size:1.5em;
 }
-.flexText{
-	width: 45%;
-	padding:4em;
-	text-align: left;
-}
-.flexProject{
-	align-self: center;
-	padding: 4em;
-	
-}
-.flexBoxGraphs{
-	background-color: #D1DBBD;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding:2em;
-	margin:30px;
-	
-}
-.graftImg{
-	width:256px;
-	height:256px
-}
-.flexBox{
-	display:flex;
-	justify-content:center;
-	flex-wrap: wrap;
-	padding-bottom: 2em;
+/* class styles */
+.sectionBlue{
+	background-color: #193441;
+	padding-bottom: 1em;
 	padding-top:2em;
 }
-.leftTxt{
-	display:flex;
-	text-transform:uppercase;
-	letter-spacing:3.2px;
-	width:400px;
-	justify-content: flex-end;
-	padding-right:5em;
+.section{
+	display:inline-flex;
+	justify-content:center;
+	align-self: center;
+	flex-wrap: wrap;
+	padding: 2em 0em;
 }
-.rightTxt{
-	width:50em;
-	padding-left: 40px;
-	margin: 0px 20px 40px 10px;
+.darksection{
+	background-color: #D1DBBD;
+	width: 100%; 
+}
+
+.flexWide{
+	width: 45%;
+	text-align: left;
+	margin-left: 2em;
+	align-self: center
+}
+.flexNarrow {
+	width: 30%;
+	padding: 4em;
+	align-self: center;
+}
+.flexResume{
+	width: 60%;
+	padding: 2em;
+	text-align: left;
+	margin-left: 2em;
 	border-left: solid;
 	border-left-color: #FF530D;
 }
-.rightTxt h2{
-	color:#FF530D; 
-	margin-bottom:2.7px;
-	text-align: left;
+.flexResume a{
+	text-decoration: underline;
+	color: #193441
 }
-.rightTxt h3{
-	font-size:1em;
-	font-family:'lato';
-	text-transform:uppercase;
-	margin-top:0px;
-	text-align: left;
+.intro{
+	max-width: 65%;
+	padding-right: 3em;
 }
-.jobDescript{
-	text-align: left;
+.orange{
+	color: #ff530d;
+	text-align: center;
+	letter-spacing:10px;
+	text-transform: uppercase;
+	background-color: #193441;
+	padding: .5em;
+	width: 100%;	
 }
-.coreComp{
-	display: block;
-	justify-content: space-between;
-	width: 20em;
-	padding-left: 40px;
-	margin: 0em 4em 0em 4em;
+.photo{
+	padding: 6em;	
+}
+.aboutTxt{
+	width: 45%;
+	text-align: left;
+	align-self: center;
+	padding: 40px;
+	margin-left: 1em;
 	border-left: solid;
 	border-left-color: #FF530D;
 }
-.coreComp h2{
-	color:#FF530D; 
-	text-align: left;
+.skills{
+	display: inline-block;
+	width: 25%;
 }
