@@ -30,6 +30,9 @@ nav a{
 	background-color:#193441;
 	
 }
+body{
+	width: 100%;
+}
 h1{
 	color:#ff530d;
 }
@@ -87,6 +90,7 @@ footer{
 	background-color: #193441;
 	padding-bottom: 1em;
 	padding-top:2em;
+
 }
 .section{
 	display:inline-flex;
@@ -94,10 +98,11 @@ footer{
 	align-self: center;
 	flex-wrap: wrap;
 	padding: 2em 0em;
+	
 }
 .darksection{
 	background-color: #D1DBBD;
-	width: 100%; 
+	
 }
 
 .flexWide{
@@ -134,7 +139,7 @@ footer{
 	text-transform: uppercase;
 	background-color: #193441;
 	padding: .5em;
-	width: 100%;	
+	
 }
 .photo{
 	padding: 6em;	
