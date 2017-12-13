@@ -60,6 +60,11 @@ button{
 	width: 200px;
 }
 /* id styles */
+#trainimage{
+	background-image:url("images/ben franklin train.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
 #flowVellaButton{
 	align-self: center;
 	padding: 4em;
@@ -143,7 +148,8 @@ footer{
 	
 }
 .photo{
-	padding: 6em;	
+	padding: 2em;	
+	align-self: center;
 }
 .aboutTxt{
 	width: 45%;
